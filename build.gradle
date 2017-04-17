@@ -1,0 +1,17 @@
+group 'com.miras.home.projects'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.spockframework', name: 'spock-core', version: '1.1-groovy-2.4-rc-4'
+
+
+}
